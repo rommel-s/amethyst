@@ -1,8 +1,8 @@
-import { useRouter } from 'next/navigation';
-import { DevProjButton } from '../Buttons';
+import { useRouter } from "next/navigation";
+import { DevProjButton } from "../Buttons";
 
-import { AiOutlineGithub } from 'react-icons/ai';
-import { log } from 'util';
+import { AiOutlineGithub } from "react-icons/ai";
+import { log } from "util";
 
 type Entries = {
   icon: string;
@@ -10,7 +10,7 @@ type Entries = {
   title: string;
   description: string;
   linkName: string;
-  githubRepo: string;
+  githubRepo?: string;
 };
 
 const DevCard = ({
