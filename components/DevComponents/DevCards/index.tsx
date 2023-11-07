@@ -5,11 +5,11 @@ import { AiOutlineGithub } from "react-icons/ai";
 import { log } from "util";
 
 type Entries = {
-  icon: string;
-  altText: string;
-  title: string;
-  description: string;
-  linkName: string;
+  icon?: string;
+  altText?: string;
+  title?: string;
+  description?: string;
+  linkName?: string;
   githubRepo?: string;
 };
 
