@@ -1,12 +1,12 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
+import Link from "next/link";
 
-import { useRouter } from 'next/navigation';
+import { useRouter } from "next/navigation";
 
-import { Projects } from '@/data/dev-projects-data';
-import DevBio from '@/components/DevComponents/DevBio';
-import DevCards from '@/components/DevComponents/DevCards';
+import { Projects } from "@/data/dev-projects-data";
+import DevBio from "@/components/DevComponents/DevBio";
+import DevCards from "@/components/DevComponents/DevCards";
 //import profile from '@/assets';
 
 const DevProjects = () => {
@@ -37,7 +37,7 @@ const DevProjects = () => {
           <h1 className="text-main text-3xl	 font-extrabold">Sites estáticos</h1>
           <div className="w-full h-0.5 bg-gradient-to-r from-secondary_dark_01 to-main"></div>
           <div className="grid grid-cols-1 gap-4 my-5 min-[800px]:grid-cols-4">
-            {Projects.static_sites.map((item, index) => (
+            {/* {Projects.static_sites.map((item, index) => (
               <DevCards
                 key={index}
                 icon={item.icon}
@@ -46,12 +46,12 @@ const DevProjects = () => {
                 description={item.description}
                 linkName={item.link_name}
               />
-            ))}
+            ))} */}
           </div>
           <h1 className="text-main text-3xl	font-extrabold">Executáveis</h1>
           <div className="w-full h-0.5 bg-gradient-to-r from-secondary_dark_01 to-main"></div>
           <div className="grid grid-cols-1 gap-4 my-5 min-[800px]:grid-cols-4">
-            {Projects.exe.map((item, index) => (
+            {/* {Projects.exe.map((item, index) => (
               <DevCards
                 key={index}
                 icon={item.icon}
@@ -60,7 +60,7 @@ const DevProjects = () => {
                 description={item.description}
                 linkName={item.link_name}
               />
-            ))}
+            ))} */}
           </div>
         </section>
       </div>
