@@ -4,11 +4,11 @@ import {
   AiOutlineDribbble,
   AiOutlineGithub,
   AiOutlineInstagram,
-} from 'react-icons/ai';
-import { HiOutlineNewspaper } from 'react-icons/hi';
+} from "react-icons/ai";
+import { HiOutlineNewspaper } from "react-icons/hi";
 
-import { GeodeButton, GeodeContactButton } from '../../components/Buttons';
-import SpinLogo from '@/components/SpinLogo';
+import { GeodeButton, GeodeContactButton } from "../../components/Buttons";
+import SpinLogo from "@/components/SpinLogo";
 
 const Geode = () => {
   return (
@@ -31,19 +31,19 @@ const Geode = () => {
 
           <div className="flex flex-col items-center justify-center mt-8 min-[500px]:flex-row min-[500px]:justify-evenly min-[500px]:mt-20 ">
             <GeodeButton
-              btnTitle={'Behance'}
+              btnTitle={"Behance"}
               icon={<AiOutlineBehance size={24} />}
-              btnLink={'/'}
+              btnLink={"/"}
             />
             <GeodeButton
-              btnTitle={'Instagram'}
+              btnTitle={"Instagram"}
               icon={<AiOutlineInstagram size={24} />}
-              btnLink={'/'}
+              btnLink={"/"}
             />
             <GeodeButton
-              btnTitle={'Dribbble'}
+              btnTitle={"Dribbble"}
               icon={<AiOutlineDribbble size={24} />}
-              btnLink={'/'}
+              btnLink={"/"}
             />
           </div>
         </div>
@@ -58,19 +58,19 @@ const Geode = () => {
 
           <div className="flex flex-col items-center justify-center mt-8 min-[500px]:flex-row min-[500px]:justify-evenly min-[500px]:mt-20 ">
             <GeodeButton
-              btnTitle={'Github'}
+              btnTitle={"Github"}
               icon={<AiOutlineGithub size={24} />}
-              btnLink={'/'}
+              btnLink={"/"}
             />
             <GeodeButton
-              btnTitle={'Projetos Dev'}
+              btnTitle={"Projetos Dev"}
               icon={<AiOutlineCode size={24} />}
-              btnLink={'/dev-projects'}
+              btnLink={"/dev-projects"}
             />
             <GeodeButton
-              btnTitle={'Blog'}
+              btnTitle={"Blog"}
               icon={<HiOutlineNewspaper size={24} />}
-              btnLink={'/blog'}
+              btnLink={"/blog"}
             />
           </div>
         </div>
@@ -83,7 +83,12 @@ const Geode = () => {
             <div className="w-full h-0.5 bg-gradient-to-r from-main via-white to-main "></div>
           </div>
           <div className="flex flex-col items-center justify-center mt-8 min-[500px]:flex-row min-[500px]:justify-evenly min-[500px]:mt-20 ">
-            <GeodeContactButton btnTitle={'Entre em contato'} />
+            <GeodeContactButton
+              btnTitle={"Entre em contato"}
+              btnLink={
+                "https://api.whatsapp.com/send?1=ptBR&phone=5585987480269&text=Ol%C3%A1!"
+              }
+            />
           </div>
         </div>
       </section>

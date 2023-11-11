@@ -1,12 +1,14 @@
-import { AiOutlineWhatsApp } from 'react-icons/ai';
+import { ReactElement } from "react";
 
-import Link from 'next/link';
+import { AiOutlineWhatsApp } from "react-icons/ai";
+
+import Link from "next/link";
 
 type ButtonLabel = {
   btnTitle: string;
   btnLink: string;
   route?: () => void;
-  icon?: string;
+  icon?: ReactElement | null;
 };
 
 export const GeodeButton = ({ btnTitle, icon, btnLink }: ButtonLabel) => {
