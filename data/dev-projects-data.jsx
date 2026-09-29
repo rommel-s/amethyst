@@ -112,16 +112,6 @@ export const Projects = {
       description: "portifolio massa",
       link_name: "/",
     },
-    {
-      name: "blog",
-      description: "blog belezinha",
-      link_name: "/blog",
-    },
-    {
-      name: "test",
-      description: "lorem ipsum dolor sit amet",
-      link_name: "/",
-    },
   ],
   exe: [
     {
